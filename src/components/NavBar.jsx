@@ -2,8 +2,8 @@
 function NavBar () {
     return(
         <>
-            <div class="navbar bg-primary text-primary-content">
-                <a class="btn btn-ghost normal-case text-xl">Microservices Posts</a>
+            <div className="navbar bg-primary text-primary-content">
+                <a className="btn btn-ghost normal-case text-xl">Microservices Posts</a>
             </div>
         </>
     )
