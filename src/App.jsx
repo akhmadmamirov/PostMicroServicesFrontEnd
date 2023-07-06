@@ -1,14 +1,15 @@
 import './input.css'
 import NavBar from "./components/NavBar";
-import Postcreate from './components/Postcreate';
+import PostCreate from './components/PostCreate';
 import PostList from './components/PostList';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Postcreate />
+      <PostCreate />
       <hr />
+      <div className="text-2xl m-7">Posts</div>
       <PostList />
     </div>
   );

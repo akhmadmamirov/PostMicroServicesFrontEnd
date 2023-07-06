@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 
-function Postcreate() {
+function PostCreate() {
 
     const [title, setTitle] = useState('')
 
@@ -37,4 +37,4 @@ function Postcreate() {
     )
 }
 
-export default Postcreate
+export default PostCreate
