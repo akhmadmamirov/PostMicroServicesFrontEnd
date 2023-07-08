@@ -8,7 +8,6 @@ function CommentList({postId}) {
     const fetchComments = async () => {
         const res = await axios.get(`http://localhost:4001/posts/${postId}/comments`)
         setComments(res.data)
-        console.log(res.data)
     }
 
     useEffect(() => {
